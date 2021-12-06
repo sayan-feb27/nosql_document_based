@@ -1,0 +1,26 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:5.0.4
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb_data/:/data/db
+    restart: always
+  arangodb:
+    image: arangodb:3.8.4
+    ports:
+    - 8529:8529
+    environment:
+      ARANGO_ROOT_PASSWORD: a
+    volumes:
+      - ./arangodb_data/:/data/db
+    restart: always
+  ravendb:
+    image: ravendb/ravendb:5.3-ubuntu-latest
+    ports:
+    - 8080:8080
+    - 38888:38888
+    volumes:
+      - ./ravendb_data/:/data/db
+    restart: always
