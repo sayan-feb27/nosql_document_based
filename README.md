@@ -3,12 +3,13 @@
  - MongoDB
  - ArangoDB
  - CouchDB
+ - RavenDB
+ - Cassandra
  - ~~Couchbase~~
  - ~~RealmDB~~
- - RethinkDB
+ - ~~RethinkDB~~
  - ~~DynamoDB~~
  - ~~IBM Cloudant~~
- - RavenDB
 
 
 Выбирал я их по таким критериям:
@@ -40,7 +41,8 @@
 
 ### TODO:
 
-- [ ] Add RethinkDB.
+- [ ] Add Cassandra.
+- [ ] Add CouchDB.
 - [ ] Look at the way you generate data.
 - [ ] Better performance tests. Yandex Tank, etc.
 - [ ] Programmatically create a database for RavenDB.
