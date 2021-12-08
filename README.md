@@ -42,6 +42,6 @@
 
 - [ ] Add RethinkDB.
 - [ ] Look at the way you generate data.
-- [ ] Better performance tests.
+- [ ] Better performance tests. Yandex Tank, etc.
 - [ ] Programmatically create a database for RavenDB.
 - [ ] Logging.
