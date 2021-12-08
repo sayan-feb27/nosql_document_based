@@ -5,7 +5,7 @@ from faker import Faker
 from pymongo import MongoClient
 
 from .base import BaseDriver
-from .models import Bookmark, MovieRating, MovieReview, ReviewRating
+from .models.general import Bookmark, MovieRating, MovieReview, ReviewRating
 
 
 class MongoDBDriver(BaseDriver):

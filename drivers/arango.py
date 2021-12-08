@@ -5,7 +5,7 @@ from faker import Faker
 from pyArango.connection import Connection as ArangoConnection
 
 from .base import BaseDriver
-from .models import Bookmark, MovieRating, MovieReview, ReviewRating
+from .models.general import Bookmark, MovieRating, MovieReview, ReviewRating
 
 
 class ArangoDBDriver(BaseDriver):

@@ -6,7 +6,7 @@ from pyravendb.store import document_store
 from pyravendb.data.query import QueryOperator
 
 from .base import BaseDriver
-from .models import Bookmark, MovieRating, MovieReview, ReviewRating
+from .models.general import Bookmark, MovieRating, MovieReview, ReviewRating
 
 
 class RavenDBDriver(BaseDriver):
